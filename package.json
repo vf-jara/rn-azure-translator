@@ -1,0 +1,22 @@
+{
+  "name": "rn-azure-translator",
+  "version": "1.0.0",
+  "description": "the package uses the azure translator to translate json and ts language files",
+  "github": "https://github.com/vf-jara/rn-azure-translator",
+  "main": "./src/index.js",
+  "bin": {
+    "translate": "bin/translator.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "author": "Vinicius Franco Jara",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
