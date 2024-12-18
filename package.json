@@ -1,5 +1,5 @@
 {
-  "name": "@vf-jara/rn-azure-translator",
+  "name": "rn-azure-translator",
   "version": "1.0.0",
   "description": "the package uses the azure translator to translate json and ts language files",
   "repository": "https://github.com/vf-jara/rn-azure-translator",
@@ -18,5 +18,8 @@
     "dotenv": "^16.4.7",
     "ts-node": "^10.9.2",
     "typescript": "^5.7.2"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   }
 }
