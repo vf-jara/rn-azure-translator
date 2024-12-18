@@ -1,8 +1,8 @@
 {
-  "name": "rn-azure-translator",
+  "name": "@vf-jara/rn-azure-translator",
   "version": "1.0.0",
   "description": "the package uses the azure translator to translate json and ts language files",
-  "github": "https://github.com/vf-jara/rn-azure-translator",
+  "repository": "https://github.com/vf-jara/rn-azure-translator",
   "main": "./src/index.js",
   "bin": {
     "translate": "bin/translator.js"
